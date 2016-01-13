@@ -17,6 +17,6 @@ class EchoApp(WxApplication):
 
 @csrf_exempt
 def wechat(request):
-    app = WxApp()
+    app = EchoApp()
     result = app.process(request.GET, request.body)
     return HttpResponse(result)
