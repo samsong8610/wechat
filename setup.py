@@ -14,7 +14,7 @@ setup(name="wechat",
       maintainer_email="bbmyth@gmail.com",
       url = url,
       long_description=long_description,
-      install_requires = ['requests'],
+      install_requires = ['requests', 'pycrypto'],
       packages=find_packages('.'),
      )
 
